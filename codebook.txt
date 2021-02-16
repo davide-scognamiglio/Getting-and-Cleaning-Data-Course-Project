@@ -1,0 +1,21 @@
+CodeBook
+
+Data source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Data descriptive explanation: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Main files included in zip archive:
+README.txt
+features_info.txt ->  info about var used in "features" file
+features.txt -> list of all features
+activity_labels.txt
+train/X_train.txt -> training dataset
+train/y_train.txt -> training labels
+test/X_test.txt -> test set
+test/y_test.txt -> test labels
+
+This code:
+1) Merges the training and the test sets to create one data set.
+2) Extracts only the measurements on the mean and standard deviation for each measurement. 
+3) Uses descriptive activity names to name the activities in the data set
+4) Appropriately labels the data set with descriptive variable names. 
+5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
